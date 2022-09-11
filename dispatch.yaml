@@ -1,7 +1,3 @@
-runtime: nodejs16
-
-env: standard
-
 dispatch:
     - url: "docs.royalti.io"
       service: docs

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Royalti.io Documentation',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Royalti.io',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Royalti.io Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -69,10 +69,15 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://royalti.io/demo',
+            label: 'Demo',
+            position: 'right',
+          },
+          {
+            href: 'https://royalti.io/blog',
+            label: 'Blog',
             position: 'right',
           },
         ],
@@ -120,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ROYALTI DIGITAL MUSIC SOLUTIONS LTD. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
